@@ -1,2 +1,0 @@
-# ancoa_animacion
- 

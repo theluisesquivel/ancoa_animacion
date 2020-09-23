@@ -1,0 +1,356 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="435.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="710.8669808477357" scrolly="-197.2215790678125" scale="0.8227024747918819">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="_nB^^ku}Tb6i[nb^6bU0" x="-750" y="-150">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="_LE=l6Y2w:jG?Z-;.~t[">
+          <field name="TEXT">paso1</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="*E?o.V`h2-NB_H$xJW7{">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id=",uLKRhw7$S+yL*2S!kWp">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id="_vMQc2*Uj{jh@,AhJNza">
+                  <field name="FIELDNAME">02_SoporteRapido_Base</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="Qm|6ig+[?3SmzzlAzQ@?">
+              <field name="NUM">0</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="wSHxeR{i|m2t@abc:zhg">
+              <field name="NUM">60</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="K[-?wf;:73ZFA44--n(@" x="-750" y="-10">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="wlc!Hyv[P3y~nh+p+V;^">
+          <field name="TEXT">paso2</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="tXQ~We9=u6Slp6w4g@li">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id=",)Q:@NH0BO*@5u4qRlDY">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id=",02U?-`eJCVgW@kbxM#0">
+                  <field name="FIELDNAME">03_SoporteRapido_Verticales</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="JChngyvp]NJQHo6r@I{}">
+              <field name="NUM">60</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="8BJ0}91Q$=LWEFr~;Vo(">
+              <field name="NUM">120</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="d}t~V%o?vs)~X=c(*MDb" x="-750" y="110">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="E$ssIZW6Fg|wm.A(,P[m">
+          <field name="TEXT">paso3</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="9)Vw1}o7dO%gqFy316Bk">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id="S|8e]q[gu5+82gKC:;.}">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id="wbHc-k.92c~Q*KH)c6]u">
+                  <field name="FIELDNAME">04_SoporteRapido_Horizontales</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="!MBV2b,_6aip~|j3Aq|;">
+              <field name="NUM">120</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="~:Wws$x#~2`-?`nN^}O6">
+              <field name="NUM">180</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="j`KN-9^nzR*nh859biBK" x="-750" y="230">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id=":|$q;$(Bu[qI%d0O6pZj">
+          <field name="TEXT">paso4</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="`--m^[NnA[:p0d)v{h{2">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id="TjWyZd-vg^(bNbq):!SK">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id="`~yvqdz{EG.k~08+1bcr">
+                  <field name="FIELDNAME">05_PernosNivelantes</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="%8ZCR]OLn.`#j=!kr:ue">
+              <field name="NUM">180</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="XZ-awx%#^ZrKBvOm!ir~">
+              <field name="NUM">240</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Kprp09[;55*1,*F]|(#}" x="-750" y="350">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="ibQz]Mp:(Dj:3ZwZPM@D">
+          <field name="TEXT">paso5</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="Xmo5:M*DqP6`BwFJLl?B">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id="X.m6XNnfDa(n8k6PV;{$">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id="lW7BLGm!6iMjgUyDf#p^">
+                  <field name="FIELDNAME">06_Pasarela_Estructura</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="9q{lJ9)9_=%vagYa@cC#">
+              <field name="NUM">240</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="A,TrMeur**#C#oG%UF9U">
+              <field name="NUM">300</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="[y+`E;72S@oLPTFj-^*W" x="-750" y="470">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id=".q?+H`UD=^[bw5To0fDj">
+          <field name="TEXT">paso6</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="y!@s+KznagPhqg,oa^Q}">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id="|NhC;FgPEre5j4bJvBdZ">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id="f[XELoW+gPmdIh}S8.He">
+                  <field name="FIELDNAME">07_Pasarela_Madera</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="=FUHO[,mP~3wZkqnYBRy">
+              <field name="NUM">300</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="|#[y#ivMpiFwsQk}C8B0">
+              <field name="NUM">360</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="7Yt[_EsQchW|(6l*^!o4" x="-750" y="610">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="1XU|cd8+3}q0j#gN~CpY">
+          <field name="TEXT">paso7</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="WVm4F%{|!#upctdf-l{e">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id="]jDjsA6}$`GIRWgqK@z2">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id=";sR1h!qne*Je:fiwzr6e">
+                  <field name="FIELDNAME">01_Colector</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="^N*ihLTvA;f]?y.jcfVx">
+              <field name="NUM">360</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="1ylqfHWFW75lBLcPVpH^">
+              <field name="NUM">420</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="ZDtBHdpU@shaQb51dh3-" x="-750" y="750">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="x3q|F^b5jITlV*e/g|r_">
+          <field name="TEXT">paso8</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="*}bB#z`Ai9+SQ/!/O;HY">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id="uP/2sG*pke$)Z{DFhNJ$">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id="EZ_3sl/8$vVyJX}:MML{">
+                  <field name="FIELDNAME">02_Rápido_Tramo1</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="*;9F~53w`aHC7,F4waT=">
+              <field name="NUM">420</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="Rik_.cYxLHwFk0^ovjPl">
+              <field name="NUM">480</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="j7i;SnTO9a7iuvqi*`Pn" x="-750" y="890">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="o;7Rc;a8qnR-Y+Qk^ubS">
+          <field name="TEXT">paso9</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="E,(:}iOt$.ZyPetF+d)~">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id="Q[8{TdZ9#$RY-]C55:E7">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id="idg_K/tw!oH{XnQ57~=N">
+                  <field name="FIELDNAME">03_Rápido_Tramo2</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="`Q:OQ?;zZ!A|m@0:PSiS">
+              <field name="NUM">480</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="/Q/:j(T5Q}_4iEBy^9?e">
+              <field name="NUM">540</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="kemT-Ochepb.Icu1wk,2" x="-750" y="1010">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="ZIv!ddk}}JL])5xTF)NL">
+          <field name="TEXT">paso9</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="S8vXdW#M4db}EvmbD#A0">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="getAnimations" id="Aqg/=34,gPqs$zh5v1m~">
+              <value name="OBJECTINPUT">
+                <block type="objectList" id="HHgBs!Y5Q#qsolWv0;.J">
+                  <field name="FIELDNAME">04_PernosFlanches</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="OI@HYsKQC_]QU/$(GLW7">
+              <field name="NUM">480</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="J0(D6G8{B2{i_pc7N5kR">
+              <field name="NUM">540</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1104" viewport-y="28" viewport-w="798" viewport-h="515.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

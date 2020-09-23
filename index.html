@@ -1,47 +1,96 @@
-<!DOCTYPE html>
-<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
-<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="es">
 <head>
-  <title>Verge3D Web Interactive</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-
-  <!-- Search Engines -->
-  <meta name="description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Verge3D Web Interactive">
-  <meta name="twitter:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
-  <meta name="twitter:image:src" content="https://cdn.soft8soft.com/images/player_socials.jpg">
-  <!-- Open Graph -->
-  <meta property="og:title" content="Verge3D Web Interactive">
-  <meta property="og:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
-  <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
-  <meta property="og:type" content="website">
-
-  <meta name="generator" content="Verge3D 3.3.1">
-
-  <!-- favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
-  <link rel="manifest" href="media/manifest.json">
-  <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="theme-color" content="#ffffff">
-
-
-  
-  <script src="v3d.js"></script>
-  <script src="Ancoa_Animación.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="Ancoa_Animación.css">
+  <link rel="stylesheet" type="text/css" href="principal.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <div id="v3d-container">
-    <div id="fullscreen_button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
-  </div>
+  <header id="header" class="header">
+    <a href="http://www.inh.cl" target="_blank" class="link-block logo"></a>
+      <div class="titulo">
+        MODELO EMBALSE ANCOA
+      </div>
+      <div class="subtitulo">
+        Modelo Físico a Escala Reducida λ: 1/40
+      </div>
+      <!--
+      <div class="logo"><a href="http://www.inh.cl" class="link-inh"></a></div>
+      <div class="inh">
+        INSTITUTO NACIONAL DE HIDRÁULICA<br>CHILE
+      </div>
+      -->
+    </header>
+    <div class="html-embeded w-embeded w-iframe">
+      <iframe width="100%" height="100%" frameborder="0" src="Ancoa_Animación.html"></iframe>
+    </div>
+    <div class="barra-lateral">
+      <div class="contenedor-etapas">
+        <div class="etapa-contenedor">
+          <div id="paso1" class="etapa-figura"></div>
+          <div id="paso1-t" class="etapa-texto">Soporte Rápido - Base</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso2" class="etapa-figura"></div>
+          <div id="paso2-t" class="etapa-texto">Soporte Rápido - Verticales</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso3" class="etapa-figura"></div>
+          <div id="paso3-t" class="etapa-texto">Soporte Rápido - Horizontales</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso4" class="etapa-figura"></div>
+          <div id="paso4-t" class="etapa-texto">Soporte Rápido - Niveladores</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso5" class="etapa-figura"></div>
+          <div id="paso5-t" class="etapa-texto">Pasarela - Estructura</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso6" class="etapa-figura"></div>
+          <div id="paso6-t" class="etapa-texto">Pasarela - Cubierta</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso7" class="etapa-figura"></div>
+          <div id="paso7-t" class="etapa-texto">Rápido Descarga - Canal Colector</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso8" class="etapa-figura"></div>
+          <div id="paso8-t" class="etapa-texto">Rápido Descarga - Tramo 1</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso9" class="etapa-figura"></div>
+          <div id="paso9-t" class="etapa-texto">Rápido Descarga - Tramo 2</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso10" class="etapa-figura"></div>
+          <div id="paso10-t" class="etapa-texto">Rápido Descarga - Tramo 3</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso11" class="etapa-figura"></div>
+          <div id="paso11-t" class="etapa-texto">Rápido Descarga - Tramo 4</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso12" class="etapa-figura"></div>
+          <div id="paso12-t" class="etapa-texto">Rápido Descarga - Tramo 5</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso13" class="etapa-figura"></div>
+          <div id="paso13-t" class="etapa-texto">Rápido Descarga - Tramo 6</div>
+        </div>
+        <div class="etapa-contenedor">
+          <div id="paso14" class="etapa-figura"></div>
+          <div id="paso14-t" class="etapa-texto">Pasarela - Pasamanos</div>
+        </div>
+      </div>
+    </div>
+    <div class="iconos_footer">
+      <div id="m-completo" class="botones_modelo">
+        Modelo Completo
+      </div>
+      <div id="m-armado" class="botones_modelo">
+        Secuencia Armado
+      </div>
+    </div>
 </body>
-
-</html>
