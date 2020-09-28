@@ -1,0 +1,1736 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="353.9999999999993" scrolly="435.50000000000045" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="2042.1704507891632" scrolly="991.3882199388677" scale="0.34184987108662157">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id=".-=My-U9vf%8~sc[jbsF" type="">piezas_todas</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="Kk+oM~$#H3ZyFIB~B.+p" collapsed="true" x="-5890" y="-2750">
+      <field name="VAR" id=".-=My-U9vf%8~sc[jbsF">piezas_todas</field>
+      <value name="VALUE">
+        <block type="lists_create_with" id="F/82d^?vn!Ox1|)HE?3u">
+          <mutation items="20"/>
+          <value name="ADD0">
+            <block type="objectList" id="~:+Uv/^5s]H|+L!:SYR.">
+              <field name="FIELDNAME">01_Rapido_Base</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="%3*wB?Jijp?ngO^(vn=n">
+              <field name="FIELDNAME">02_Rapido_Verticales</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="objectList" id="f|sncs3!JH.S7{/2eats">
+              <field name="FIELDNAME">03_Rapido_Horizontales</field>
+            </block>
+          </value>
+          <value name="ADD3">
+            <block type="objectList" id="ueiB3m{wo3i[}fzE04_B">
+              <field name="FIELDNAME">04_PernosNivelantes</field>
+            </block>
+          </value>
+          <value name="ADD4">
+            <block type="objectList" id="YFif5vvNtr3o?8cQ@tZC">
+              <field name="FIELDNAME">05_Pasarela_Estructura</field>
+            </block>
+          </value>
+          <value name="ADD5">
+            <block type="objectList" id=";VDZ7~:HuS40hzKrN$[|">
+              <field name="FIELDNAME">06_Pasarela_Madera</field>
+            </block>
+          </value>
+          <value name="ADD6">
+            <block type="objectList" id="zro$G|n1(.vOmP^mZkRi">
+              <field name="FIELDNAME">07_Colector</field>
+            </block>
+          </value>
+          <value name="ADD7">
+            <block type="objectList" id="~vG2j_|N/A;ZxD9,dOVC">
+              <field name="FIELDNAME">08_Tramo1</field>
+            </block>
+          </value>
+          <value name="ADD8">
+            <block type="objectList" id="H(}/[nm-NLvAhd~RokiW">
+              <field name="FIELDNAME">09_Tramo2</field>
+            </block>
+          </value>
+          <value name="ADD9">
+            <block type="objectList" id=")/!FHAX|}jcCJI!9WftF">
+              <field name="FIELDNAME">10_Pernos</field>
+            </block>
+          </value>
+          <value name="ADD10">
+            <block type="objectList" id="Q-y=spLXLNZK]OQ+KsSP">
+              <field name="FIELDNAME">11_Tramo3</field>
+            </block>
+          </value>
+          <value name="ADD11">
+            <block type="objectList" id="sCLm-@NJO~yaB?w/-oB|">
+              <field name="FIELDNAME">12_Pernos</field>
+            </block>
+          </value>
+          <value name="ADD12">
+            <block type="objectList" id="Sai,q(HPO|7F+c)PGZk~">
+              <field name="FIELDNAME">13_Tramo4</field>
+            </block>
+          </value>
+          <value name="ADD13">
+            <block type="objectList" id="lPPx:c?sf}EFTM0kH3:9">
+              <field name="FIELDNAME">14_Pernos</field>
+            </block>
+          </value>
+          <value name="ADD14">
+            <block type="objectList" id=".o`h}NN=YddziWa_sFg#">
+              <field name="FIELDNAME">15_Tramo5</field>
+            </block>
+          </value>
+          <value name="ADD15">
+            <block type="objectList" id="y9y~kuY$DA.kUwqY`EKd">
+              <field name="FIELDNAME">16_Pernos</field>
+            </block>
+          </value>
+          <value name="ADD16">
+            <block type="objectList" id="-[%V?ZP`9;z,f:hSZ:,R">
+              <field name="FIELDNAME">17_Tramo6</field>
+            </block>
+          </value>
+          <value name="ADD17">
+            <block type="objectList" id="=q2lOTE}##aWA[0E{B/A">
+              <field name="FIELDNAME">18_Pernos</field>
+            </block>
+          </value>
+          <value name="ADD18">
+            <block type="objectList" id="~OWEUL:zRni@YAo3ltbP">
+              <field name="FIELDNAME">19_Pasarela_Baranda</field>
+            </block>
+          </value>
+          <value name="ADD19">
+            <block type="groupList" id="zRdlK[{%YaGAf[extb`J">
+              <field name="FIELDNAME">Referencias</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Vk,7dDjgY|c=g?7i$m]5" x="-5550" y="-2750">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="S/]B~W^HfJ#;|a9#}Z}9">
+          <field name="TEXT">m-completo</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="show" id="WaPn(YBwmZK;JE?fTb(+">
+          <value name="VALUE">
+            <block type="allObjectList" id="_txE#(!fJo_h$1g*:(M6"/>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="${LkTkiyR,P-C?htT6t8">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="getAnimations" id="x9bi6:L{=j3GD{`gZC-D">
+                  <value name="OBJECTINPUT">
+                    <block type="allObjectList" id="5~D#{[DY+w)jZ;jc^5+o"/>
+                  </value>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="l-T6qW9[eD;D%#me,36=">
+                  <field name="NUM">840</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="!T8bCb/M+~c_1{!uT;P.">
+                  <field name="NUM">840</field>
+                </block>
+              </value>
+              <next>
+                <block type="setCSSRuleStyle" id="HTa)bd}i~:vItj@R?W?.">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                  <field name="PROPERTY">display</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <block type="text" id="K;1yPt;}ZC/*u{)543]%">
+                      <field name="TEXT">none</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <block type="text" id="(H$PyZL4og75[/NeIjVl">
+                      <field name="TEXT">.barra-lateral</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="CH8zK3vPUh64Hj!pJOK3">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <block type="text" id=")Er.(VF?BzQw7|5jZ.G4">
+              <field name="TEXT">m-armado</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="setCSSRuleStyle" id="Kg,.Bi!cKga[T_W|8teg">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+              <field name="PROPERTY">display</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <block type="text" id="}gXr,4TCdY3r[=(#4IH7">
+                  <field name="TEXT">block</field>
+                </block>
+              </value>
+              <value name="ID">
+                <block type="text" id="lfqBN}.`pwSkPIz-(dPD">
+                  <field name="TEXT">.barra-lateral</field>
+                </block>
+              </value>
+              <next>
+                <block type="hide" id="1-Eab%W[f{5)|-^C`6Ig">
+                  <value name="VALUE">
+                    <block type="variables_get" id="%*)X?QT1c,U~$^Da^dxF">
+                      <field name="VAR" id=".-=My-U9vf%8~sc[jbsF">piezas_todas</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="vv%DL{Hcpau@L_~xjv/[">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <block type="getAnimations" id=":REV%b_Q25U4L2Va^3H*">
+                          <value name="OBJECTINPUT">
+                            <block type="allObjectList" id="r#RT4IetLE`uNExh_t`_"/>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="FROM">
+                        <block type="math_number" id="CS,?W+epn7S0$9Zk~EN5">
+                          <field name="NUM">0</field>
+                        </block>
+                      </value>
+                      <value name="TO">
+                        <block type="math_number" id="70!_=wWr)q*sJTr7Ma39">
+                          <field name="NUM">0</field>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="_nB^^ku}Tb6i[nb^6bU0">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <block type="text" id="_LE=l6Y2w:jG?Z-;.~t[">
+                  <field name="TEXT">paso1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="show" id="Qb]Ey,Vo8wRidKM^uM%N">
+                  <value name="VALUE">
+                    <block type="objectList" id="or!~pmHdbJB~=Yw+bpkc">
+                      <field name="FIELDNAME">01_Rapido_Base</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="*E?o.V`h2-NB_H$xJW7{">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <block type="getAnimations" id=",uLKRhw7$S+yL*2S!kWp">
+                          <value name="OBJECTINPUT">
+                            <block type="objectList" id="_vMQc2*Uj{jh@,AhJNza">
+                              <field name="FIELDNAME">01_Rapido_Base</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="FROM">
+                        <block type="math_number" id="Qm|6ig+[?3SmzzlAzQ@?">
+                          <field name="NUM">0</field>
+                        </block>
+                      </value>
+                      <value name="TO">
+                        <block type="math_number" id="wSHxeR{i|m2t@abc:zhg">
+                          <field name="NUM">60</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemAttribute" id="pIoxI^HOU@u6W`dGZ_t}">
+                          <field name="ATTRIBUTE">className</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="VALUE">
+                            <block type="text" id="C2zPuBo+w+En1Y!F[;N]">
+                              <field name="TEXT">oculto</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <block type="lists_create_with" id="}/][5I2$0y}Si1(^EFWD">
+                              <mutation items="26"/>
+                              <value name="ADD0">
+                                <block type="getHTMLElemAttribute" id="`SzOm5qYSj`p3,zy7r+I">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="Llo{[?a/vLs{v/b.[G0!">
+                                      <field name="TEXT">paso2</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD1">
+                                <block type="getHTMLElemAttribute" id="wz^~wLwY`~/+u-{`1Y``">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="Px~lD/+1eW))%N?qg%y`">
+                                      <field name="TEXT">paso2-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD2">
+                                <block type="getHTMLElemAttribute" id="6r#^v7?rLJf5)VzGI7dA">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="q%4ke;*JhiRykgTg^yAp">
+                                      <field name="TEXT">paso3</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD3">
+                                <block type="getHTMLElemAttribute" id="=qFxjY*xxrY%VQ4e/[#=">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="1L=)Y%[m^wi7uR9ZFYay">
+                                      <field name="TEXT">paso3-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD4">
+                                <block type="getHTMLElemAttribute" id="rFi0FG^6Ufj~St6GlvSJ">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="Qf_DAcHlstePf$SiOa;7">
+                                      <field name="TEXT">paso4</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD5">
+                                <block type="getHTMLElemAttribute" id="F2,[-MYX6wDI^CmtR]RV">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="1Aw{Nn]7b~z5mk_{{CLl">
+                                      <field name="TEXT">paso4-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD6">
+                                <block type="getHTMLElemAttribute" id="EH=Q.Hfk1atViu@+!bGX">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="1^o`iWr{;Oy]qi!imkAQ">
+                                      <field name="TEXT">paso5</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD7">
+                                <block type="getHTMLElemAttribute" id="ggShNBFKpQ5x:*LmD9le">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="|o]Di;U+pAQt5BeZQi9H">
+                                      <field name="TEXT">paso5-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD8">
+                                <block type="getHTMLElemAttribute" id=",vFNgH;C7eR)e{hm)Xj3">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="$rt4r6r40OP17nC{0dGb">
+                                      <field name="TEXT">paso6</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD9">
+                                <block type="getHTMLElemAttribute" id="A7A!rfEl`GcTgy42kuVP">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="1SKxg/3d]eNoKXKfVka#">
+                                      <field name="TEXT">paso6-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD10">
+                                <block type="getHTMLElemAttribute" id="(r8*-2j5L:BtfcHeaQ_r">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="u_3691[]Z|W*6KawLv7H">
+                                      <field name="TEXT">paso7</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD11">
+                                <block type="getHTMLElemAttribute" id="F~##vk]Ze{u`u8~EQWCX">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id=")eTx`F@%0-Wa2*1z/0(3">
+                                      <field name="TEXT">paso7-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD12">
+                                <block type="getHTMLElemAttribute" id="GsPkTXzPi_,%9a;p26f%">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="D$d*Do1Jin}701Mo?-_)">
+                                      <field name="TEXT">paso8</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD13">
+                                <block type="getHTMLElemAttribute" id="Z5yScW*J=sY?lsb`9:6/">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="4cZoq|sbmh+@6G!q+rCb">
+                                      <field name="TEXT">paso8-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD14">
+                                <block type="getHTMLElemAttribute" id="^iKWtqFU4T=X%F29%QK%">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="?VH9HHV|~Md4RnWW2*5d">
+                                      <field name="TEXT">paso9</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD15">
+                                <block type="getHTMLElemAttribute" id="+j}~A-MU.yJ:S;[ZW4=1">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="HvX(GW%U7c3s*qN71=yc">
+                                      <field name="TEXT">paso9-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD16">
+                                <block type="getHTMLElemAttribute" id=";K{dUE^|KHzdpT56~+T8">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="rpe)k,P9rB#tYZPh:}}I">
+                                      <field name="TEXT">paso10</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD17">
+                                <block type="getHTMLElemAttribute" id="_VBkK]nP$GvGqDH`wq_A">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="f:C(HUv;0UN(r^c/w[sP">
+                                      <field name="TEXT">paso10-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD18">
+                                <block type="getHTMLElemAttribute" id="_)N]/cZ1z(e.u|Mg*LA+">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="^I)S/Wwy0tbWMcoC;@E@">
+                                      <field name="TEXT">paso11</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD19">
+                                <block type="getHTMLElemAttribute" id="zitaDPf4}FIu$QUAmtEZ">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="leNtDn_IzoR=C~*.h9Fh">
+                                      <field name="TEXT">paso11-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD20">
+                                <block type="getHTMLElemAttribute" id="2Kn?VQtvdZ*DK32@Tcd5">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="j;rT6tJR[;Du*,)sN+df">
+                                      <field name="TEXT">paso12</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD21">
+                                <block type="getHTMLElemAttribute" id="z7ONH0LF_TY.MG%/ceP$">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="mQ6O9wB5HM8tGXet6Vk$">
+                                      <field name="TEXT">paso12-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD22">
+                                <block type="getHTMLElemAttribute" id="yn/52):l4k4:5fD2{/bp">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="HSJP`9?=_6Q6Bu4g-|6}">
+                                      <field name="TEXT">paso13</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD23">
+                                <block type="getHTMLElemAttribute" id="n%xPsU]|!XWwa|Ev,OsV">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="a6RPqX$nF%i^R_Sw!u9[">
+                                      <field name="TEXT">paso13-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD24">
+                                <block type="getHTMLElemAttribute" id="ZYmN%QZ=cr9W0Ull,Cp)">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id=".6K,Q$~.o4/cg]3nR],~">
+                                      <field name="TEXT">paso14</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ADD25">
+                                <block type="getHTMLElemAttribute" id="33ZGhm!AbIiBP{d{X[~=">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="DBJvh:+)eJBrz/WwB-21">
+                                      <field name="TEXT">paso14-t</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="setHTMLElemAttribute" id="$keYx7$a~9fyow40i}(u">
+                              <field name="ATTRIBUTE">className</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="VALUE">
+                                <block type="text" id="42VCT8|D*|A9{W#56/Sz">
+                                  <field name="TEXT">seleccionado</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <block type="getHTMLElemAttribute" id="rq;V!PHRZQVEj#h4cz5v">
+                                  <field name="ATTRIBUTE">id</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="SWc}7H9ZW%N$T-I3c*Ff">
+                                      <field name="TEXT">paso1</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="setHTMLElemAttribute" id="ur:)aNi@gRQ^OG!-9pF(">
+                                  <field name="ATTRIBUTE">className</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="e*.U_^_~mN=6![F9~8AR">
+                                      <field name="TEXT">seleccionado</field>
+                                    </block>
+                                  </value>
+                                  <value name="ID">
+                                    <block type="getHTMLElemAttribute" id="`D(e9{krgQ[4me]+6iq4">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="c9?DY^qBg!s3;%7)ehE?">
+                                          <field name="TEXT">paso1-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="hide" id="?s=E~4_z=4mhQ,%rWh~r">
+                                      <value name="VALUE">
+                                        <block type="lists_create_with" id="#QClE1)(|ysrc}N!7T}2">
+                                          <mutation items="18"/>
+                                          <value name="ADD0">
+                                            <block type="objectList" id="ZOFMB:h?lWttqwL@g7LB">
+                                              <field name="FIELDNAME">02_Rapido_Verticales</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD1">
+                                            <block type="objectList" id="TQ*9wnr_GZ+n3RbC.j$!">
+                                              <field name="FIELDNAME">03_Rapido_Horizontales</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD2">
+                                            <block type="objectList" id="zUd:N}npFO*}c?|i;U^R">
+                                              <field name="FIELDNAME">04_PernosNivelantes</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD3">
+                                            <block type="objectList" id="1iAo+^M;mPBCCu/zLc4D">
+                                              <field name="FIELDNAME">05_Pasarela_Estructura</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD4">
+                                            <block type="objectList" id="[_V-J},ilfLlRFPVf((d">
+                                              <field name="FIELDNAME">06_Pasarela_Madera</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD5">
+                                            <block type="objectList" id="r.l?2|1y3gD--16-357G">
+                                              <field name="FIELDNAME">07_Colector</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD6">
+                                            <block type="objectList" id="y@Z_n~A$2uys}h|2)=8V">
+                                              <field name="FIELDNAME">08_Tramo1</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD7">
+                                            <block type="objectList" id="N}cTE.%`kn6!(f*+o@^H">
+                                              <field name="FIELDNAME">09_Tramo2</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD8">
+                                            <block type="objectList" id=":+2i??$p^ha[$q$tX@9`">
+                                              <field name="FIELDNAME">10_Pernos</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD9">
+                                            <block type="objectList" id="(`0%%6|QDxEgh^#IJ~[6">
+                                              <field name="FIELDNAME">11_Tramo3</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD10">
+                                            <block type="objectList" id="+_[1,$VEc^},3C~K,v^)">
+                                              <field name="FIELDNAME">12_Pernos</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD11">
+                                            <block type="objectList" id="ko+LNAdu+xB|=3Z;OnQs">
+                                              <field name="FIELDNAME">13_Tramo4</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD12">
+                                            <block type="objectList" id="Oxu0*@f.MBG/Lb[GCP-o">
+                                              <field name="FIELDNAME">14_Pernos</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD13">
+                                            <block type="objectList" id="Asg.NrMzMPW||TqAa(1f">
+                                              <field name="FIELDNAME">15_Tramo5</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD14">
+                                            <block type="objectList" id="p:/tFz.](+#$~x,67?2)">
+                                              <field name="FIELDNAME">16_Pernos</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD15">
+                                            <block type="objectList" id="1w*tzpbmP#OEr=/-=d!i">
+                                              <field name="FIELDNAME">17_Tramo6</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD16">
+                                            <block type="objectList" id="{fDR$/-]-N6z.vbKWmw_">
+                                              <field name="FIELDNAME">18_Pernos</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD17">
+                                            <block type="objectList" id="@Z!RUnyKC3;K.yPVBpaq">
+                                              <field name="FIELDNAME">19_Pasarela_Baranda</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="w)1O[qD0T;ZwWrQ|UrvN" x="-4370" y="-2410">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="Y38U=#]z::FozUK:I)*,">
+          <field name="TEXT">paso2</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="show" id="q[9bcym6@J(4{5M!r;cA">
+          <value name="VALUE">
+            <block type="lists_create_with" id="FCD^W7]aKq)=kGn,FB0N">
+              <mutation items="1"/>
+              <value name="ADD0">
+                <block type="objectList" id="=|.[+C]p?M^aIwr)4[(5">
+                  <field name="FIELDNAME">01_Rapido_Base</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="3Vtp%|!eUHEvi8W3k;sB">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="getAnimations" id="6cynG1F.?OcYBVkN;Gea">
+                  <value name="OBJECTINPUT">
+                    <block type="objectList" id="p!D,8y333%~cP;)1SLR=">
+                      <field name="FIELDNAME">02_Rapido_Verticales</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="(GmnElnV4W@gNA*bEcxW">
+                  <field name="NUM">60</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="K6bpjQ|rLf.xGf38}ZF.">
+                  <field name="NUM">120</field>
+                </block>
+              </value>
+              <next>
+                <block type="setHTMLElemAttribute" id="BKHI/_5F4^!oJ5fl@OK^">
+                  <field name="ATTRIBUTE">className</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <block type="text" id="Yd=bl!Gg0A`iWGsnyhC,">
+                      <field name="TEXT">mostrado</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <block type="lists_create_with" id="gU56;Q+)~w0oCsOTW=n^">
+                      <mutation items="2"/>
+                      <value name="ADD0">
+                        <block type="getHTMLElemAttribute" id="6n|8P4dn|xj0^/]tF8FI">
+                          <field name="ATTRIBUTE">id</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="NJx,Cc=sexp.F`znl?uy">
+                              <field name="TEXT">paso1</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="ADD1">
+                        <block type="getHTMLElemAttribute" id="WHqS62Z1DE`R+XJZkqJ]">
+                          <field name="ATTRIBUTE">id</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id=".~R4}M%h*[+8PVmI2zL?">
+                              <field name="TEXT">paso1-t</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemAttribute" id="}uGf#]?J_?J=!f+]OV%Z">
+                      <field name="ATTRIBUTE">className</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <block type="text" id="r}CDF?bi6tMa})T)h3}!">
+                          <field name="TEXT">seleccionado</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <block type="getHTMLElemAttribute" id="V$#gtrBFy;)M59Y3~DHb">
+                          <field name="ATTRIBUTE">id</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="/e:VwYt$/vnWZ$zLl2k0">
+                              <field name="TEXT">paso2</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemAttribute" id="IFGB3%|737H/K$opYo7T">
+                          <field name="ATTRIBUTE">className</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="VALUE">
+                            <block type="text" id="Ip`=_a8WAA}r|DtPn9N=">
+                              <field name="TEXT">seleccionado</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <block type="getHTMLElemAttribute" id="?TP+8%s)#tE{HrCCkk+;">
+                              <field name="ATTRIBUTE">id</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="ID">
+                                <block type="text" id="XY;8rNoNLRU0E3BDX3UR">
+                                  <field name="TEXT">paso2-t</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="setHTMLElemAttribute" id="Ea:30[=]6QrKv@Pu*;D.">
+                              <field name="ATTRIBUTE">className</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="VALUE">
+                                <block type="text" id="l22Ha[N):{BA{7k^6))i">
+                                  <field name="TEXT">oculto</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <block type="lists_create_with" id="Dqg;W2Q+DeoN#g87/yz1">
+                                  <mutation items="24"/>
+                                  <value name="ADD0">
+                                    <block type="getHTMLElemAttribute" id="UWoJ]j!4`l*.a}^XS(,T">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="zJ+R?s=~Cv1?F-PV?c[,">
+                                          <field name="TEXT">paso3</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD1">
+                                    <block type="getHTMLElemAttribute" id="y_@#$7B?{AA5)Z:8!tnX">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="n|fvIT=Pdy`,?N!iXzK5">
+                                          <field name="TEXT">paso3-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD2">
+                                    <block type="getHTMLElemAttribute" id="(|^[GL8]]Hv*7j=.n(T;">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="!;DWyMo(d;YCvQ?SUh(J">
+                                          <field name="TEXT">paso4</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD3">
+                                    <block type="getHTMLElemAttribute" id="ys)Sak6aq86+%svt;r#W">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="[BP84dSr)JAbOcEXn(8I">
+                                          <field name="TEXT">paso4-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD4">
+                                    <block type="getHTMLElemAttribute" id="QG#EcNuQla6p3[)3K#Lz">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="y(WMpuZZ=0:Ej4;];@[s">
+                                          <field name="TEXT">paso5</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD5">
+                                    <block type="getHTMLElemAttribute" id="08k4V!bp[ab=6~;MF%,8">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="-;Ld@,QGZ~t/mF3.csHr">
+                                          <field name="TEXT">paso5-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD6">
+                                    <block type="getHTMLElemAttribute" id="*^}5gO96emoD1bbEkf]9">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="tuf]`ouftm}Vt45S|+UU">
+                                          <field name="TEXT">paso6</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD7">
+                                    <block type="getHTMLElemAttribute" id="l7YjBZ],FwSy+A5k,a9C">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id=",MsI0y;r:!!k0_ww+yky">
+                                          <field name="TEXT">paso6-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD8">
+                                    <block type="getHTMLElemAttribute" id="OpeGBY@UqA0I~4|e}vOl">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="..}D:MJ7EfW=ZoYIeH.x">
+                                          <field name="TEXT">paso7</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD9">
+                                    <block type="getHTMLElemAttribute" id="@c,^*2q7S=dW52:u3eor">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="TMH#H4;^?IZ?8aAW4EqT">
+                                          <field name="TEXT">paso7-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD10">
+                                    <block type="getHTMLElemAttribute" id="/FWmo3oE]R^z:/o.ZZby">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="5Wrn^THx([PyU+*fH-.Q">
+                                          <field name="TEXT">paso8</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD11">
+                                    <block type="getHTMLElemAttribute" id="Ic6;@jga3~SOXm@8Xh.r">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="s!)7#6ew1ry#/gzU0=$w">
+                                          <field name="TEXT">paso8-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD12">
+                                    <block type="getHTMLElemAttribute" id="kg0LQ:L/66HY*p1lqC#h">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="OHmUCmWgzTs[)Grt|T)m">
+                                          <field name="TEXT">paso9</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD13">
+                                    <block type="getHTMLElemAttribute" id="9ECRjQCC*H3M%*NW+7!S">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="AUdiMVnx*nZ{_N(r[COM">
+                                          <field name="TEXT">paso9-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD14">
+                                    <block type="getHTMLElemAttribute" id="p+_nlvQuLZ6aE^=AWH/}">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="!VUiu]SBVP_M,BRK2YRy">
+                                          <field name="TEXT">paso10</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD15">
+                                    <block type="getHTMLElemAttribute" id="JjUhI-V@g,W3TOR;%P!Z">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id=":P1wP[LM6s71VfdiHOab">
+                                          <field name="TEXT">paso10-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD16">
+                                    <block type="getHTMLElemAttribute" id="kkDBT5d=kec3*uN92^}Y">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="#l(cKEf*6dev7F@7PXKn">
+                                          <field name="TEXT">paso11</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD17">
+                                    <block type="getHTMLElemAttribute" id="gY#Kiq0BPD{ux!])`eY?">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="qd|dt{MlL#Oz?Nc)qZ0S">
+                                          <field name="TEXT">paso11-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD18">
+                                    <block type="getHTMLElemAttribute" id="6OSe@Tos3K9%0JF^(84c">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="rzd8VZkz-eg7l;Fmebu+">
+                                          <field name="TEXT">paso12</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD19">
+                                    <block type="getHTMLElemAttribute" id="JN#?|71-%RHDhi5nU(i;">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="@kCAx[QJ}NK^y)E;c:kN">
+                                          <field name="TEXT">paso12-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD20">
+                                    <block type="getHTMLElemAttribute" id="h#yAg1WC*|SUqq4{Z.M3">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="@=ljDA3kuKArALUXxIim">
+                                          <field name="TEXT">paso13</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD21">
+                                    <block type="getHTMLElemAttribute" id="#Dk#W9:p{}$@]wUg?nwx">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="P?b*t2qtxJ?O4dEw;qh%">
+                                          <field name="TEXT">paso13-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD22">
+                                    <block type="getHTMLElemAttribute" id="+HXnQInlv=(X!=Htm%g^">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="nO`n1)3w|/?8XULXD6iY">
+                                          <field name="TEXT">paso14</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD23">
+                                    <block type="getHTMLElemAttribute" id="3%i0U+=99isFM7zAqn+|">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="6(?W|eG6ns}tVVS5}5gX">
+                                          <field name="TEXT">paso14-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="hide" id="P+Im7TD(k3z!s4A{[hI+">
+                                  <value name="VALUE">
+                                    <block type="lists_create_with" id="=}PvP(v7SZSTA{1q2tQ7">
+                                      <mutation items="17"/>
+                                      <value name="ADD0">
+                                        <block type="objectList" id="tw[($(d#mzDoD76Sx3(=">
+                                          <field name="FIELDNAME">03_Rapido_Horizontales</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD1">
+                                        <block type="objectList" id="[jd7O.Q1{8gO=Mf:i*:F">
+                                          <field name="FIELDNAME">04_PernosNivelantes</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD2">
+                                        <block type="objectList" id="TC-6zDmYr(,RPAF{cqD+">
+                                          <field name="FIELDNAME">05_Pasarela_Estructura</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD3">
+                                        <block type="objectList" id="2|7VWX?M/yR?s~(h%~GU">
+                                          <field name="FIELDNAME">06_Pasarela_Madera</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD4">
+                                        <block type="objectList" id="Eu{U0X7V%:kgf]32C5?z">
+                                          <field name="FIELDNAME">07_Colector</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD5">
+                                        <block type="objectList" id="+U$^ob57L=Kab1AoW=j$">
+                                          <field name="FIELDNAME">08_Tramo1</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD6">
+                                        <block type="objectList" id="9eMVehpmx[Pmln:;qBR~">
+                                          <field name="FIELDNAME">09_Tramo2</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD7">
+                                        <block type="objectList" id=":X^uCot.rp7N)*tw+SuJ">
+                                          <field name="FIELDNAME">10_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD8">
+                                        <block type="objectList" id="NCfe7Q5@_N-YXnm%iWeE">
+                                          <field name="FIELDNAME">11_Tramo3</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD9">
+                                        <block type="objectList" id="$yAUser3g_AKKqm2?d4%">
+                                          <field name="FIELDNAME">12_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD10">
+                                        <block type="objectList" id="SZQ~)E{ECEEwp|9)NLhR">
+                                          <field name="FIELDNAME">13_Tramo4</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD11">
+                                        <block type="objectList" id="20TWAw+ftz-W)3/O{Z!J">
+                                          <field name="FIELDNAME">14_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD12">
+                                        <block type="objectList" id="Y)h2N;=rQ?b{#)56.k0)">
+                                          <field name="FIELDNAME">15_Tramo5</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD13">
+                                        <block type="objectList" id="|f`EWK6|?EGUz*K0J)4V">
+                                          <field name="FIELDNAME">16_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD14">
+                                        <block type="objectList" id="w_uY]5plu},D4*sPZ@sL">
+                                          <field name="FIELDNAME">17_Tramo6</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD15">
+                                        <block type="objectList" id="+t3?IS*^h$?9y]ErV44O">
+                                          <field name="FIELDNAME">18_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD16">
+                                        <block type="objectList" id="!%KD6y;{c5t~6)m*]CHy">
+                                          <field name="FIELDNAME">19_Pasarela_Baranda</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="M.a[r#35bNKeBw3t6FaV" x="-3190" y="-2390">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="eGl3#F#3]#zZA/rg(:r;">
+          <field name="TEXT">paso2</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="show" id="Q5`%-?uam/5K)FPfbp{8">
+          <value name="VALUE">
+            <block type="lists_create_with" id="CcNF_(k./AUCd|xDkd}^">
+              <mutation items="2"/>
+              <value name="ADD0">
+                <block type="objectList" id="8Q[hTraFgA%fHq0CNkJ-">
+                  <field name="FIELDNAME">01_Rapido_Base</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="objectList" id="@=eEFd^l^eABO61iK,26">
+                  <field name="FIELDNAME">02_Rapido_Verticales</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="BuQPaE0/3PnVRvJgVU}2">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="getAnimations" id="{`okXUl;+kd8h(;]6p;f">
+                  <value name="OBJECTINPUT">
+                    <block type="objectList" id="y/SW{FmkX|4CF!W~Z$`{">
+                      <field name="FIELDNAME">03_Rapido_Horizontales</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="VEUMx{=84d4ln|BGC~L[">
+                  <field name="NUM">60</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="bmHW]_|qS8P{4lvTeaiw">
+                  <field name="NUM">120</field>
+                </block>
+              </value>
+              <next>
+                <block type="setHTMLElemAttribute" id=";{y-bPQE7)z(/lY9gwYB">
+                  <field name="ATTRIBUTE">className</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <block type="text" id="O[n861)0O~%qrVYJ$4)C">
+                      <field name="TEXT">mostrado</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <block type="lists_create_with" id="]P1F4~dg4L|5{bVEmP_@">
+                      <mutation items="4"/>
+                      <value name="ADD0">
+                        <block type="getHTMLElemAttribute" id="^3{zC]`u.r..!2$|jj#S">
+                          <field name="ATTRIBUTE">id</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="8PhzLP/87xDXZ[hy-eb_">
+                              <field name="TEXT">paso1</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="ADD1">
+                        <block type="getHTMLElemAttribute" id=")B}{c.lEW7RM2yKRAXF:">
+                          <field name="ATTRIBUTE">id</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="_uR8RK]Kq{jHWq.2y`UY">
+                              <field name="TEXT">paso1-t</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="ADD2">
+                        <block type="getHTMLElemAttribute" id="_a4ITUi,`]ilkLLOyk/D">
+                          <field name="ATTRIBUTE">id</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="Tw?2=s(LPAc2;Pxw5C?Y">
+                              <field name="TEXT">paso2</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="ADD3">
+                        <block type="getHTMLElemAttribute" id="NK,8WAnp*63n(n+00I,}">
+                          <field name="ATTRIBUTE">id</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="br#2$+!^jS%OOf/(RA9O">
+                              <field name="TEXT">paso2-t</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemAttribute" id="e|rQ-8qW!qZc*^BEdivM">
+                      <field name="ATTRIBUTE">className</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <block type="text" id="*{G*jnS$9P}hk9wD8bjx">
+                          <field name="TEXT">seleccionado</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <block type="getHTMLElemAttribute" id="!Ka7H=DQ9X6dsb.Ti._j">
+                          <field name="ATTRIBUTE">id</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="bp*^t4nd:`+$mQ5zVbQA">
+                              <field name="TEXT">paso3</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemAttribute" id="DZYVq}9l4t[6soadEs3h">
+                          <field name="ATTRIBUTE">className</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="VALUE">
+                            <block type="text" id="!vk(WBI+SN_e5J9L;PKE">
+                              <field name="TEXT">seleccionado</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <block type="getHTMLElemAttribute" id="i-)dh/l7P!3eM9.|c6/9">
+                              <field name="ATTRIBUTE">id</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="ID">
+                                <block type="text" id="cka7.aiG`dme0rQvDY:_">
+                                  <field name="TEXT">paso3-t</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="setHTMLElemAttribute" id="!#W5)-SXEthL=]:h2RI]">
+                              <field name="ATTRIBUTE">className</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="VALUE">
+                                <block type="text" id=",Iv##*Sq/Am;#02Y|TJ}">
+                                  <field name="TEXT">oculto</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <block type="lists_create_with" id="8_|*=.~%7r!_ia4=cfn{">
+                                  <mutation items="22"/>
+                                  <value name="ADD0">
+                                    <block type="getHTMLElemAttribute" id="c?3leLN_j@MsA:e+eH9S">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id=":LHK3F=A}F%65$y`|tj^">
+                                          <field name="TEXT">paso4</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD1">
+                                    <block type="getHTMLElemAttribute" id="00J!x(J5IyNR^Q{7EU.v">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="Uv(d}KWlt-42|;*_?f}e">
+                                          <field name="TEXT">paso4-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD2">
+                                    <block type="getHTMLElemAttribute" id="TNaurWlsAkpri50p1-,2">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="w7iI.Vls{}%I.pKW%5zX">
+                                          <field name="TEXT">paso5</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD3">
+                                    <block type="getHTMLElemAttribute" id="{3cQGq6fJ|j/|k%pK17#">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="T-$lH!?ZHvd*VN,Zw_LI">
+                                          <field name="TEXT">paso5-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD4">
+                                    <block type="getHTMLElemAttribute" id="y$hs2+u1/oZOlt{$5$C)">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="%tb]=7WJoK8kpIA{0Qa.">
+                                          <field name="TEXT">paso6</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD5">
+                                    <block type="getHTMLElemAttribute" id="Lmmks(xolnX$_AI60:S0">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="tzyKp;]PUivu:~;E-%Lg">
+                                          <field name="TEXT">paso6-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD6">
+                                    <block type="getHTMLElemAttribute" id="v6+j8q%n$,.j7IE2OT*.">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="^0Xzj}XdID?2^LT(WoC!">
+                                          <field name="TEXT">paso7</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD7">
+                                    <block type="getHTMLElemAttribute" id="c_MW|XrxwNXz@m=|P*cx">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="|pp_(o3lY2kGdV[vuhmU">
+                                          <field name="TEXT">paso7-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD8">
+                                    <block type="getHTMLElemAttribute" id="/mUW!YnQdTzF9cXCjQ,~">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="(j,DEGg~qR(Gx6)ze6_[">
+                                          <field name="TEXT">paso8</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD9">
+                                    <block type="getHTMLElemAttribute" id="~ZzP`5_2xK?uZ!eg?vqA">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="G)FI}sN9LJ6/fYT~;BR/">
+                                          <field name="TEXT">paso8-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD10">
+                                    <block type="getHTMLElemAttribute" id="!PWxOO?_u6D3v7*.%[(2">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="L;uu!yaLUZCqj$R1y[xL">
+                                          <field name="TEXT">paso9</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD11">
+                                    <block type="getHTMLElemAttribute" id="M.BC`#a(y8`3-6G5y}tO">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id=";qzJ9wvCz6.7;l[u+K/g">
+                                          <field name="TEXT">paso9-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD12">
+                                    <block type="getHTMLElemAttribute" id="kDPJg@C[Ir!L5U=+~v=i">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="wj);2RWzTDTIve`WQhrY">
+                                          <field name="TEXT">paso10</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD13">
+                                    <block type="getHTMLElemAttribute" id="~e^u1z$JE?8*}@CwUrP]">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="6i+Zw,z+`OCw$kA!|dSS">
+                                          <field name="TEXT">paso10-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD14">
+                                    <block type="getHTMLElemAttribute" id="`3O.sEY1;?NInbuPkA!`">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="$zxg63)eBD+.KzpwCel}">
+                                          <field name="TEXT">paso11</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD15">
+                                    <block type="getHTMLElemAttribute" id="!PLpN1j,cu7hR#oO1TF=">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="hi96M(CYmsmhFqob+b5]">
+                                          <field name="TEXT">paso11-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD16">
+                                    <block type="getHTMLElemAttribute" id="Q*Pt[k3db!wR(YRGgzA*">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id=";uTpYc~A4[(S[tE2KenP">
+                                          <field name="TEXT">paso12</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD17">
+                                    <block type="getHTMLElemAttribute" id="y%DbY^l^Z|=s;#N;;nE%">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="fu])[{$=ur3wESnRH5c0">
+                                          <field name="TEXT">paso12-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD18">
+                                    <block type="getHTMLElemAttribute" id="_xDV8(WS0`r1Zfoy2s$F">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="i7.!lUlQY1GL#{Tsr#,+">
+                                          <field name="TEXT">paso13</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD19">
+                                    <block type="getHTMLElemAttribute" id="tK:MBHODhyb5hau~fHZE">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="i5s-3fst;EN}VpXdw7HI">
+                                          <field name="TEXT">paso13-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD20">
+                                    <block type="getHTMLElemAttribute" id="epdzCWZ%?sr!,-g|]k*Q">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="N+xX5gWS5fV4GB2`4-O@">
+                                          <field name="TEXT">paso14</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ADD21">
+                                    <block type="getHTMLElemAttribute" id="np;QYWdelh/_mDuEmfbs">
+                                      <field name="ATTRIBUTE">id</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="[3TG+T6T|FjX,FWQa7cw">
+                                          <field name="TEXT">paso14-t</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="hide" id="~SHyqO%C$*4w[9KEIZX,">
+                                  <value name="VALUE">
+                                    <block type="lists_create_with" id="0K|lBg3F@%AB(dV4iA=d">
+                                      <mutation items="16"/>
+                                      <value name="ADD0">
+                                        <block type="objectList" id="-]b0a/1b*^H@AF#S~e@z">
+                                          <field name="FIELDNAME">04_PernosNivelantes</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD1">
+                                        <block type="objectList" id="(zW0jBq6hb1Ks-3_V(?e">
+                                          <field name="FIELDNAME">05_Pasarela_Estructura</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD2">
+                                        <block type="objectList" id="(Hayb@`R3d7cLIlNE?jP">
+                                          <field name="FIELDNAME">06_Pasarela_Madera</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD3">
+                                        <block type="objectList" id="]89~~Mc~xXAt,B6ikYVo">
+                                          <field name="FIELDNAME">07_Colector</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD4">
+                                        <block type="objectList" id="ZApfwTxW{^p-T{yCSWq?">
+                                          <field name="FIELDNAME">08_Tramo1</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD5">
+                                        <block type="objectList" id="^XmL.ERPc5SjR,XZQ5#X">
+                                          <field name="FIELDNAME">09_Tramo2</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD6">
+                                        <block type="objectList" id="(pXQ`Jp(8PqU?s*a~n8T">
+                                          <field name="FIELDNAME">10_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD7">
+                                        <block type="objectList" id="H|6S1ewrc@0%po0-9=+Z">
+                                          <field name="FIELDNAME">11_Tramo3</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD8">
+                                        <block type="objectList" id="[w069Yy@O_??2%|A]+6*">
+                                          <field name="FIELDNAME">12_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD9">
+                                        <block type="objectList" id=";++0e1q[_ci$/0XiBzTQ">
+                                          <field name="FIELDNAME">13_Tramo4</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD10">
+                                        <block type="objectList" id="cR^I`V^Vk_l8h;JZCunp">
+                                          <field name="FIELDNAME">14_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD11">
+                                        <block type="objectList" id="*CpCVFz*:oq[yrsmnUJ9">
+                                          <field name="FIELDNAME">15_Tramo5</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD12">
+                                        <block type="objectList" id="lQ6H7H(UZAZFCW$~?vKX">
+                                          <field name="FIELDNAME">16_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD13">
+                                        <block type="objectList" id="bk`}!eb^;T,ro7=./E/J">
+                                          <field name="FIELDNAME">17_Tramo6</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD14">
+                                        <block type="objectList" id="wzy0[3Z]/$@jGppdmZL+">
+                                          <field name="FIELDNAME">18_Pernos</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD15">
+                                        <block type="objectList" id="[5p44)kzj{`z^uvc)NId">
+                                          <field name="FIELDNAME">19_Pasarela_Baranda</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="959" viewport-y="58" viewport-w="798" viewport-h="515.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

@@ -17,6 +17,7 @@ body{
     width: 100%;
     height: 100%;
 		z-index: -1;
+    background: linear-gradient(to top, rgb(62, 81, 81), rgb(222, 203, 164));
 }
 
 .body {
@@ -123,12 +124,13 @@ body{
   grid-auto-columns: 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 0px;
-  grid-template-areas: "Area-2 Area-2 modelo-completo modelo-armado Area-4 Area-4";
-  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
-  grid-template-columns: 2fr 2fr 1fr 1fr 2fr 2fr;
+  grid-template-areas: "Area-1 modelo-completo modelo-armado modelo-componentes Area-2";
+  -ms-grid-columns: 3fr 10px 1fr 10px 1fr 10px 1fr 10px 3fr;
+  grid-template-columns: 3fr 1fr 1fr 1fr 3fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   background-color: transparent;
+  z-index: -10;
 }
 
 .botones_modelo {
@@ -167,14 +169,20 @@ body{
 
 #m-completo {
   -ms-grid-row: 1;
-  -ms-grid-column: 7;
+  -ms-grid-column: 2;
   grid-area: modelo-armado;
 }
 
 #m-armado{
   -ms-grid-row: 1;
-  -ms-grid-column: 5;
+  -ms-grid-column: 3;
   grid-area: modelo-completo;
+}
+
+#m-componentes{
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: modelo-componentes;
 }
 
 .barra-lateral {
@@ -182,7 +190,7 @@ body{
     left: 0;
     top: 0;
     right: auto;
-    display: none;
+    display: none; /* desctivar al pasar a produccion */
     width: 260px;
     height: 100%;
     -webkit-box-orient: vertical;
@@ -199,7 +207,7 @@ body{
     -ms-flex-align: start;
     align-items: flex-start;
     background-color: #31334A;
-    z-index: -1;
+    z-index: -5;
   }
 
   .contenedor-etapas {
@@ -211,30 +219,29 @@ body{
       height: 500px;
     }
 
-  .etapa-contenedor {
+  .etapa {
     width: auto;
     height: 25px;
     margin-top: 7.5px;
     background-color: transparent;
   }
 
-  .etapa-figura {
+  #paso1, #paso2, #paso3, #paso4, #paso5, #paso6, #paso7, #paso8, #paso9, #paso10, #paso11, #paso12, #paso13, #paso14, #btn_maestranza_figura, #btn_carpinteria_figura, #btn_pasarela_figura, #btn_otros_figura, #btn_ref_figura{
     width: 15px;
     height: 15px;
     margin-left: 5px;
     border-style: solid;
-    border-width: 2px;
-		border-color: #8B93AA;
-    border-radius: 30%;
+   border-width: 2px;
+   border-radius: 30%;
   }
 
-  .etapa-texto {
+  #paso1-t,#paso2-t,#paso3-t,#paso4-t,#paso5-t,#paso6-t,#paso7-t,#paso8-t,#paso9-t,#paso10-t,#paso11-t,#paso12-t,#paso13-t,#paso14-t, #btn_maestranza_texto, #btn_carpinteria_texto, #btn_pasarela_texto, #btn_otros_texto, #btn_ref_texto{
     position: relative;
     left: auto;
     top: -80%;
     display: flex;
-    width: 220px;
     margin-left: 41px;
+    margin-right: 15px;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -243,120 +250,64 @@ body{
     font-size: 13px;
   }
 
-  #paso1:hover, #paso2:hover, #paso3:hover, #paso4:hover, #paso5:hover, #paso6:hover, #paso7:hover, #paso8:hover, #paso9:hover, #paso10:hover, #paso11:hover, #paso12:hover, #paso13:hover, #paso14:hover{
+  .oculto {
+		border-color: #8B93AA;
+    color: #8B93AA;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .mostrado {
+		border-color: #4BE5C5;
+    color: #4BE5C5;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .seleccionado {
+		border-color: #ffffff;
+    /*background-color: #cc2264;*/
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #paso1:hover, #paso2:hover, #paso3:hover, #paso4:hover, #paso5:hover, #paso6:hover,
+  #paso7:hover, #paso8:hover, #paso9:hover, #paso10:hover, #paso11:hover, #paso12:hover,
+  #paso13:hover, #paso14:hover, #btn_maestranza_figura:hover, #btn_carpinteria_figura:hover,
+  #btn_pasarela_figura:hover , #btn_otros_figura:hover, #btn_ref_figura:hover {
     border-color: #CC2264;
     background-color: #CC2264;
   }
 
-	#paso1{
-		border-color: #878EA5;
-	}
-  #paso1-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
+  .barra-lateral-derecha{
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: none; /* ocultar al pasar a producción */
+    /*
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    */
+    height: 100%;
+    padding-left: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #31334a;
+    z-index: -5;
   }
-  #paso2{
-		border-color: #878EA5;
-	}
-  #paso2-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso3{
-		border-color: #878EA5;
-	}
-  #paso3-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso4{
-		border-color: #878EA5;
-	}
-  #paso4-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso5{
-		border-color: #878EA5;
-	}
-  #paso5-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso6{
-		border-color: #878EA5;
-	}
-  #paso6-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso7{
-		border-color: #878EA5;
-	}
-  #paso7-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso8{
-		border-color: #878EA5;
-	}
-  #paso8-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso9{
-		border-color: #878EA5;
-	}
-  #paso9-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso10{
-		border-color: #878EA5;
-	}
-  #paso10-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso11{
-		border-color: #878EA5;
-	}
-  #paso11-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso12{
-		border-color: #878EA5;
-	}
-  #paso12-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso13{
-		border-color: #878EA5;
-	}
-  #paso13-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
-  }
-  #paso14{
-		border-color: #878EA5;
-	}
-  #paso14-t{
-    font-style: italic;
-    font-weight: 300;
-    color: #878EA5;
+
+  .contenedor__derecha{
+    margin-top: auto;
+    margin-bottom: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
