@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="499.0200195312498" scrolly="672.7999877929688" scale="1">
+  <tab name="init" type="InitTab" active="false" scrollx="517.5691604614256" scrolly="867.7755088806152" scale="0.9070294784580498">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="o!18{Qiq7lqu,@Jnq[xY" x="-290" y="-330">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="6144" scrolly="3431" scale="1">
+  <tab name="main" type="MainTab" active="true" scrollx="5776.83544921875" scrolly="3304.689453125" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id=".-=My-U9vf%8~sc[jbsF" type="">piezas_todas</variable>
       <variable id="YOrLj$B~+V%;3pXX_)q]" type="">Inicio_Secuencia</variable>
@@ -600,6 +600,62 @@
           </next>
         </block>
       </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="Q|1UGY)VoJtq`=!h_jEH" x="-5590" y="-3070">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="text" id="`vQ8~{a+C$5m?{+6uQBN">
+          <field name="TEXT">m-captura</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="setHTMLElemStyle" id="RCKQ=|WfVJa=l*Ay}/dE">
+          <field name="PROPERTY">backgroundImage</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text_join" id="BxxR%Z7sJjY0L|HF%M`u">
+              <mutation items="3"/>
+              <value name="ADD0">
+                <block type="text" id="w8Wk#o$I=@l*9O|7X[SB">
+                  <field name="TEXT">url(</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="takeScreenshot" id="aKAy3oJ*Cr#@wtidhrF{">
+                  <field name="TYPE">png</field>
+                </block>
+              </value>
+              <value name="ADD2">
+                <block type="text" id="kD+4M;cRr`:$tk5pe;cC">
+                  <field name="TEXT">)</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="ID">
+            <block type="text" id="T[1ooA57A(jn%d55=vbb">
+              <field name="TEXT">v3d-container</field>
+            </block>
+          </value>
+          <next>
+            <block type="downloadFile" id="w-=ecwc7q1:t+/BL$`}G">
+              <value name="CONTENTS">
+                <shadow type="text" id="CEt_DAq.`n6CKD==%o%r">
+                  <field name="TEXT">data:,</field>
+                </shadow>
+                <block type="takeScreenshot" id="eG@[N0cB5etb~k4sM/(J">
+                  <field name="TYPE">png</field>
+                </block>
+              </value>
+              <value name="FILENAME">
+                <shadow type="text" id="HeQ~M:*-pXb6w6p9?lfF">
+                  <field name="TEXT">screenshot.png</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="Kk+oM~$#H3ZyFIB~B.+p" x="-6350" y="-3030">
       <field name="VAR" id=".-=My-U9vf%8~sc[jbsF">piezas_todas</field>
